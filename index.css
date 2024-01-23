@@ -1,0 +1,387 @@
+
+:root{
+  --headbody : #c2d1e7;
+  --card: #7892b48c;
+  --font:  'Poiret One', sans-serif;
+  
+} 
+html{
+  background-color: var(--headbody);
+  scroll-behavior: smooth;
+  
+}
+h3{
+  font-size: 22px;
+}
+body{
+  margin-top: 50px;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--headbody);
+  display: flex;
+  justify-content: space-between;
+  z-index: 20;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color:rgba(71, 71, 71, 0.562);
+}
+
+.left
+{
+  display: flex;
+  position: relative;
+}
+.left a{
+  text-decoration: none; 
+  color: black;
+}
+.right{
+  display: flex;
+  margin-right: 10px;
+}
+.uptext{
+  font-family: var(--font);
+  margin-left:10px;
+  margin-right: 10px;
+  font-size: 20px;
+  height: 50px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+.uptext h3{
+  padding-bottom:5px;
+  font-size: 25px;
+}
+.uptext a{
+  text-decoration: none;
+   color: black; 
+}
+.cm a{
+  text-decoration: none;
+}
+.cm h3{
+  background-color: black; 
+  color: rgb(224, 224, 224); padding: 7px; 
+  border-radius: 10px;
+}
+.cm:hover {
+transform: scale(1.1);
+transition: 0.2s;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: -5px;
+  left: 0;
+  background-color: #3c6e80;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+/* Intro css */
+.intro{
+    
+  background-color: var(--card);
+  border-radius: 10px;
+  font-family: var(--font);
+  padding: 5%;
+
+  padding-bottom: 10%;
+  margin: 5%;
+  margin-top: 150px;
+  margin-left: 3%;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 10px 10px 50px 10px rgb(117, 117, 117);
+
+}
+.imiddle{
+  transition: 1s ease-out;
+}
+.imiddle>img{
+  box-shadow: 10px 10px 10px 2px rgb(70, 69, 69);
+  height: 400px; width: 320px;
+  border-radius: 10px;
+}
+.ileft{
+  width: 50%;
+  margin-top: 6%;
+  font-size: 25px;
+  
+}
+.ileft p{
+  margin-left: 5%; 
+  
+  font-weight: 600;
+}
+.iright{
+  margin-top: 10%;
+  margin-left: 5%;
+  
+}
+.iright h2{
+  margin-bottom: 25px;
+}
+.iright h2 a{
+  color: rgb(246, 246, 246); 
+  background-color: #3d4c51; 
+  padding : 9px 9px 9px 9px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.sicon:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+/* about me css */
+.aboutme{
+    
+  background-color:  var(--card);
+  border-radius: 10px;
+  font-family: var(--font);
+  padding: 5%;
+  padding-bottom: 10%;
+  line-height: 1.5;
+  margin: 5%;
+  margin-top: 150px;
+  margin-left: 3%;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 10px 10px 50px 10px rgb(117, 117, 117);
+}
+.aboutme p{
+  font-size: 25px; font-weight: 600;
+}
+.aboutme p a{
+  color: rgb(192, 76, 37); 
+  text-decoration: none;
+}
+.aboutme p a:hover{
+  color: rgb(45, 67, 67); 
+}
+
+
+/* Resume css */
+.resume{
+  
+  background-color:  var(--card);
+  border-radius: 10px;
+  font-family: var(--font);
+  padding: 5%;
+  padding-bottom: 10%;
+  line-height: 1.5;
+  margin: 5%;
+  margin-top: 150px;
+  margin-left: 3%;
+  
+  box-shadow: 10px 10px 50px 10px rgb(117, 117, 117);
+}
+.cv{
+  width: 100%;
+  height: 77vh;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+/* projects css */
+.projects{
+
+  background-color: var(--card);
+  border-radius: 10px;
+  
+  font-family: var(--font);
+  padding: 5%;
+  padding-bottom: 10%;
+  line-height: 1.5;
+  margin: 5%;
+  margin-top: 150px;
+  margin-left: 3%;
+  box-shadow: 10px 10px 50px 10px rgb(117, 117, 117);
+}
+.tiles{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  
+}
+
+.ptile{
+  width: 300px;
+  height: 400px;
+  font-size: 20px;
+  margin:2%;
+  
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 600;
+  perspective: 1000px;
+  background-color: transparent;
+
+}
+.p1 , .p2 , .p3{
+  
+  width: 300px;
+  height: 400px;
+  transition: 0.8s;
+  border-radius: 10px;
+  position: relative;
+  transform-style: preserve-3d;
+  box-shadow: 10px 10px 10px 0px rgb(65, 85, 93);
+}
+.tile-front{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(102, 156, 217, 0.437);
+  position: absolute;
+  font-size: larger;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+}
+.tile-back{
+  width: 100%;
+  height: 93%;
+  padding-top: 10%;
+  background-color: #749BC2;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.tile-front>img{
+  width: 300px;
+  height: 280px;
+  border-radius: 10px;
+  
+}
+.ptile:hover .p1{
+  transform: rotateY(180deg);
+}
+.ptile:hover .p2{
+  transform: rotateY(180deg);
+}
+.ptile:hover .p3{
+  transform: rotateY(180deg);
+}
+
+
+/* contact me css */
+.contactme{
+
+  background-color:  var(--card);
+  
+  
+  border-radius: 10px;
+  font-family: var(--font);
+  padding: 5%;
+  padding-bottom: 10%;
+  line-height: 1.5;
+  margin: 5%;
+  margin-top:150px;
+  margin-left: 3%;
+  box-shadow: 10px 10px 50px 10px rgb(117, 117, 117);
+
+}
+
+.send{
+  height: 450px;
+  width: auto;
+  border-radius:5px;
+  padding-top: 10px;
+  max-width: 900px;
+  
+  background-color: rgba(36, 36, 36, 0.87);
+ 
+}
+.em{
+  display: flex;
+  justify-content: space-around;
+}
+.em>input{
+  width: 50%;
+  margin: 15px;
+  height: 40px;
+}
+
+.subject>input{
+  margin: 15px;
+  width: calc(100% - 30px);
+  height: 40px;
+}
+.msg>input{
+  margin: 15px;
+  width: calc(100% - 30px);
+  height: 100px;
+}
+input{
+  outline: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  background-color: transparent;
+  border: #e0e0e0 solid 1px;
+  color: rgb(236, 231, 231);
+  font-family: var(--font);
+  font-weight: 800;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+.sendme>button{
+  width: 20%;
+  margin: 15px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  font-family: var(--font);
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(236, 236, 236);
+  border:none;
+  background-color: rgb(204, 81, 36);
+  
+}
+.sendme>button:active{
+  transform: translate3d(1px ,1px , 0);
+}
+
+.heading h1{
+  font-size:40px;
+}
+.heading p{
+  font-weight: 600; font-size: 25px;
+}
+form h1 {
+  color:rgb(230, 229, 229);
+  font-weight: 500; 
+  margin: 20px
+}

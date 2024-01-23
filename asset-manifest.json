@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/Akhil/static/js/main.ef29bc02.js",
+    "static/media/dp.png": "/Akhil/static/media/dp.33eb3bf2a42e92503183.png",
+    "static/media/simon.png": "/Akhil/static/media/simon.f2a4cfb1e38ec6d8fb5f.png",
+    "static/media/Hybrid_Jan.pdf": "/Akhil/static/media/Hybrid_Jan.87209ab5104f90c36d4b.pdf",
+    "static/media/feed.jpg": "/Akhil/static/media/feed.6b55bf9074432fa796e4.jpg",
+    "static/media/solar.jpg": "/Akhil/static/media/solar.fc03dce3babbc7dd1ec0.jpg",
+    "static/media/facer.jpg": "/Akhil/static/media/facer.8e07b9e58a4d36fb4f46.jpg",
+    "static/media/rfid.jpeg": "/Akhil/static/media/rfid.04e5da56a58e8225a8d3.jpeg",
+    "index.html": "/Akhil/index.html",
+    "main.ef29bc02.js.map": "/Akhil/static/js/main.ef29bc02.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ef29bc02.js"
+  ]
+}
