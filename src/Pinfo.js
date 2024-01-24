@@ -4,14 +4,14 @@ const details = [{
     imgl : require("./assets/rfid.jpeg"),
     title : "RFID based door lock system",
     description : "RFID-based door lock system employs radio-frequency identification technology, allowing authorized individuals to unlock doors using RFID cards or tags.",
-    link : " "
+    link : "https://github.com/gAkhil-454/RFID"
     },
     {
     key : 2 , 
     imgl : require("./assets/facer.jpg"),
     title : "Home Security System using Face Recognition",
     description : "Boosted face recognition accuracy with CNN implementation and added a convenient access-sharing feature via Blynk IoT for seamless user control.",
-    link : " "
+    link : "https://github.com/gAkhil-454/Mini-Project"
     },
     {
     key : 3 , 
