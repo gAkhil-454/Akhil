@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Akhil/static/js/main.ef29bc02.js",
+    "main.js": "/Akhil/static/js/main.0a0e024c.js",
     "static/media/dp.png": "/Akhil/static/media/dp.33eb3bf2a42e92503183.png",
     "static/media/simon.png": "/Akhil/static/media/simon.f2a4cfb1e38ec6d8fb5f.png",
     "static/media/Hybrid_Jan.pdf": "/Akhil/static/media/Hybrid_Jan.87209ab5104f90c36d4b.pdf",
@@ -9,9 +9,9 @@
     "static/media/facer.jpg": "/Akhil/static/media/facer.8e07b9e58a4d36fb4f46.jpg",
     "static/media/rfid.jpeg": "/Akhil/static/media/rfid.04e5da56a58e8225a8d3.jpeg",
     "index.html": "/Akhil/index.html",
-    "main.ef29bc02.js.map": "/Akhil/static/js/main.ef29bc02.js.map"
+    "main.0a0e024c.js.map": "/Akhil/static/js/main.0a0e024c.js.map"
   },
   "entrypoints": [
-    "static/js/main.ef29bc02.js"
+    "static/js/main.0a0e024c.js"
   ]
 }
