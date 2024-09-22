@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/Akhil/static/js/main.d1d85b78.js",
+    "static/media/dp.png": "/Akhil/static/media/dp.cd6920ff584e7e5b4e88.png",
+    "static/media/simon.png": "/Akhil/static/media/simon.f2a4cfb1e38ec6d8fb5f.png",
+    "static/media/Akhil_22-9.pdf": "/Akhil/static/media/Akhil_22-9.0ee265a844c18e5f902b.pdf",
+    "static/media/feed.jpg": "/Akhil/static/media/feed.6b55bf9074432fa796e4.jpg",
+    "static/media/maw.jpg": "/Akhil/static/media/maw.e10d25056d44cea3382e.jpg",
+    "static/media/facer.jpg": "/Akhil/static/media/facer.8e07b9e58a4d36fb4f46.jpg",
+    "static/media/hr.jpg": "/Akhil/static/media/hr.90321554d60d7e91e5d4.jpg",
+    "index.html": "/Akhil/index.html",
+    "main.d1d85b78.js.map": "/Akhil/static/js/main.d1d85b78.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d1d85b78.js"
+  ]
+}
